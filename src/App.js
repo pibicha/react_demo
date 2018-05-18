@@ -22,7 +22,7 @@ class App extends Component {
             //1 <HelloWorld/>
             //2 <Button/>
             //3 <BookList/>
-            //4 <User name='James' addr='北京'/>
+            // 4  <User name='james' addr={'New York'}/>
 
             // 5 <StudyGroup>
             //     <span>James</span>
@@ -30,10 +30,11 @@ class App extends Component {
             //     <span>Yao</span>
             // </StudyGroup>
 
-            // 6 <StringInput title="xx"/>
+            // 6 <StringInput/>
             // 7 <Focus/>
             // 8 <State/>
-            //<Form/>
+            // 9 <Form/>
+            // 10
             <Ajax url='https://api.github.com/search/repositories?q=javascript&sort=stars'/>
         );
     }

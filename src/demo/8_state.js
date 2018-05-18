@@ -4,7 +4,6 @@ class State extends Component {
 
     // constructor(props) {
     //     super(props);
-    //     // {}中可以放多个状态;在继承方式中，state的初始化需要放到构造器中
     //     this.state = {liked: false};
     // }
 
